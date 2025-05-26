@@ -9,6 +9,4 @@ Flask
 joblib
 threadpoolctl
 scipy>=1.5.0
-
-
-#-e .
+-e .
