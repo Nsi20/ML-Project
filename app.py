@@ -36,4 +36,4 @@ def predict_datapoint():
         return render_template('home.html', results=predicted_score, year=datetime.now().year)
     
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True)
+    app.run(host="0.0.0.0",port=5000,debug=True)
